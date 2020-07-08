@@ -1,0 +1,20 @@
+{
+  "name": "sdet_refresh",
+  "version": "1.0.0",
+  "description": "Selenium test suite examples",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js cucumber/features/example.feature -f node_modules/cucumber-pretty",
+    "node": "node webdriver/src/main.js",
+    "webdriver-node": "node webdriver/test/first.js",
+    "webdriver-example": "node webdriver/test/second.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "=6.0.5",
+    "cucumber-pretty": "=6.0.0",
+    "webdriverio": "=6.1.25"
+  }
+}
